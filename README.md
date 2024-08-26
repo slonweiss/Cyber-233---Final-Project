@@ -58,7 +58,7 @@ An opportunity exists to develop an open-source machine learning model that can 
 A privacy scoring function was proposed, normalizing outputs from pyCANON's k-anonymity, (α,k)-anonymity, ℓ-diversity, and other measures to a 1-100 scale. This scoring would allow for consistent dataset risk estimation.
 
 ```python
-P = 1/n ∑_(i=1)^n▒p_i
+P = (1/n) * Σ (from i=1 to n) of p_i
 ```
 
 This function takes the average of all normalized privacy scores available for a dataset, accounting for possible correlations between different measures.
